@@ -3,5 +3,10 @@
   "displayName": "Camera",
   "version": "0.0.0-preview",
   "unity": "2019.4",
-  "description": "Preview of Camera SDK."
+  "description": "Preview of Camera SDK.",
+  "author": {
+    "name": "Yurara",
+    "email": "yurara.mirei@gmail.com",
+    "url": "https://github.com/yurara-mirei/Camera"
+  }
 }

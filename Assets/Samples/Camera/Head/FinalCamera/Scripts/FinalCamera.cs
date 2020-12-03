@@ -60,13 +60,20 @@ namespace Alim
 
             Application.targetFrameRate = (int)RENDER_FPS;
 
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
 
             renderingFront = 0;
 
             SetFps(DefaultFps);
 
-            mainCamera = mainCameraHolder.GetComponent<Camera>();
+            if (mainCameraHolder == null)
+            {
+                mainCamera = Camera.main;
+            }
+            else
+            {
+                mainCamera = mainCameraHolder.GetComponent<Camera>();
+            }
 
             int rw = 1920;
             int rh = 1080;
