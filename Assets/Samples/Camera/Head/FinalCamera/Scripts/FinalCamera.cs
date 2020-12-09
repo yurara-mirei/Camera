@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Alim
+namespace Yurara
 {
     public class FinalCamera : MonoBehaviour
     {
